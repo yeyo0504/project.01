@@ -1,0 +1,182 @@
+:root {
+    --black: #000000;
+    --white: #f0f0f0;
+    --red: #ff0000;
+    --darkred: #8b0000;
+    --green: #008000;
+    --darkgreen: #006400;
+}
+
+/**General**/
+h1 ,h2, h3 {font-family: 'Bebas Neue', sans-serif;}
+a, p {font-family: 'Edu SA Beginner', cursive;}
+
+body {font-size: 22px;
+margin: 0}
+
+a {margin: 0rem;
+text-decoration: none;}
+
+img {max-width: 100%;}
+
+/**Header**/
+.principal {text-align: center;
+margin-bottom: 0;}
+
+.title {background-color: var(--darkgreen);
+padding: 1.1rem;
+color: var(--white);
+margin-top: 0;
+margin-bottom: 0;}
+
+.navigation {background-color: var(--darkred);
+padding: 1.875rem;}
+.navigation_a {color: var(--white);}
+.navigation a:hover {color: var(--black);}
+
+@media (min-width: 760px) {.principal{display: grid;
+grid-template-columns: 50% 50%;
+justify-content: space-between;
+align-items: center;}}
+
+@media (max-width: 759px) {.navigation{display: grid;}}
+
+.slogan {background-image: url(./imagenes/Principal.webp);
+background-size: cover;
+background-position: center center;
+height: 15rem;
+padding: 3rem;
+text-align: center;
+color: var(--white);}
+.slogan_b {font-weight: 700;}
+
+@media (max-width: 399px) {.slogan{height: 20rem;}}
+
+/**Main**/
+.main {margin: 0 2rem 0 2rem}
+@media (min-width: 760px) {.main {display: grid;
+grid-template-columns: 70% 30%;}}
+
+@media (min-width: 540px) {.products {display: grid;
+grid-template-columns: 1fr 1fr 1fr;}}
+
+/**products**/
+.products {padding-bottom: 2rem;
+margin-bottom: 5rem;
+border-top: solid 3px var(--darkred);
+border-bottom: solid 3px var(--darkred);
+border-left: solid 3px var(--darkgreen);
+border-right: solid 3px var(--darkgreen);}
+
+.products_title {text-align: center;
+border-bottom: 2px solid var(--black);}
+.products_i {text-align: center;
+padding: 1rem;}
+
+@media (max-width: 539px) {.products_i{border-bottom: solid 2px var(--black);}}
+
+.span_products {font-weight: 700;}
+.a_products {color: var(--white);
+background-color: var(--black);
+padding: 0.8rem;
+border-radius: 40%;}
+
+/**enlaces del main**/
+.a_courses {color: var(--white);
+background-color: var(--darkgreen);
+padding: 0.8rem;
+border-radius: 40%;}
+.a_contact {color: var(--white);
+background-color: var(--darkred);
+padding: 0.8rem;
+border-radius: 40%;}
+
+.a_products:hover {color: var(--darkred);}
+.a_courses:hover {color: var(--black);}
+.a_contact:hover {color: var(--black);}
+
+/**recetas**/
+.recipes {margin-bottom: 1rem;
+padding-bottom: 2rem;
+border-bottom: 2px solid var(--darkgreen);
+border-top: 2px solid var(--darkgreen);
+border-left: 2px solid var(--darkred);
+border-right: 2px solid var(--darkred);}
+
+.recipes_title {text-align: center;
+border-bottom: 2px solid var(--black);}
+.recipes_i {margin: 0.5rem;
+text-align: center;}
+
+@media (min-width: 760px) {.recipes{display: grid;
+grid-template-columns: 47% 53%;}}
+
+/**Cursos**/
+.courses_title {text-align: center;
+border-bottom: 2px solid var(--black);}
+
+@media (max-width: 759px) {.courses_title{margin-top: 0.8rem;}}
+
+.courses {margin-left: 0.5rem;}
+
+@media (max-width: 759px) {.courses_center{display: flex;}}
+@media (max-width: 539px) {.courses_center{display: grid;}}
+@media (max-width: 399px) {.ul{padding-left: 0;}}
+
+/**Contacto**/
+.contact {text-align: center;
+margin-top: 7.2rem;}
+.contact_title {border-bottom: solid 2px var(--black);}
+
+@media (max-width: 760px) {.contact{margin-top: 0.5rem;
+margin-left: 2rem;
+text-align: left;
+margin-bottom: 2rem;}}
+@media (max-width: 399px) {.contact{margin-left: 0;}}
+
+/**footer**/
+.title_footer {background-color: var(--black);
+padding: 1.1rem;
+color: var(--white);
+margin-top: 0;
+margin-bottom: 0;}
+
+.navigation_footer {background-color: var(--black);
+padding: 1.898rem;}
+.navigation_footer a:hover {color: var(--darkred);}
+
+/**Pagina de productos**/
+.productspage_title {text-align: center;}
+
+.productspage_center {display: grid;
+margin: 3rem;}
+@media (max-width: 759px) {.productspage_center{grid-template-columns: 1fr 1fr 1fr;}}
+@media (max-width: 539px) {.productspage_center{display: block;}}
+
+.productspage_i {display: grid;
+border-top: solid 3px var(--darkred);
+border-bottom: solid 3px var(--darkred);
+border-left: solid 3px var(--darkgreen);
+border-right: solid 3px var(--darkgreen);
+margin: 0.3rem;}
+
+@media (min-width: 760px) {.productspage_i{display: grid;
+grid-template-columns: 40% 60%;}}
+
+.productspage_description {text-align: center;
+padding-top: 1rem;
+margin: 0.7rem;}
+.end {padding-bottom: 1.5rem;}
+
+@media (max-width: 759px) {.productspage_description{padding-top: 0;
+padding-bottom: 2.5rem;}}
+
+
+
+
+
+
+
+
+
+
